@@ -1,0 +1,27 @@
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section::after {
+  content: '';
+  flex-grow: 1e4;
+  min-width: 20%;
+}
+
+div {
+  margin: 2px;
+  background-color: violet;
+  position: relative;
+}
+
+i {
+  display: block;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  vertical-align: bottom;
+}
